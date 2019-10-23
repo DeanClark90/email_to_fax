@@ -35,6 +35,7 @@ Clone this repository. Navigate to the folder with the source code on your machi
 From there we recommend creating a virtualenv and activating it to avoid installing dependencies globaly on your computer.
 
     virtualenv -p python3 env source env/bin/activate
-Install dependencies:
+    Install dependencies:
     pip install -r requirements.txt
-    Run the web app: python emailApp.py
+    Run the web app: 
+    python emailApp.py
