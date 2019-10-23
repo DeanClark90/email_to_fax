@@ -1,5 +1,5 @@
 # Email to Fax Sample APP
-Sample app provides details on how you can utilize the SendGrid Parse Webhook, to receive receive the contents of an email, store the attachment in an S3 bucket and send it as a fax using Twilio.
+Sample app provides details on how you can utilize the SendGrid Parse Webhook, to receive the content of an email, store the attachment in an S3 bucket and send it as a fax using Twilio.
 ## Requirements
 * A Twilio, account, you can sign up here: https://www.twilio.com/try-twilio 
 * A SendGrid account, you can sign up here: https://signup.sendgrid.com/
