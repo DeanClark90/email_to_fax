@@ -3,6 +3,7 @@ Sample app provides details on how you can utilize the SendGrid Parse Webhook, t
 ## Requirements
 * A Twilio, account, you can sign up here: https://www.twilio.com/try-twilio 
 * A SendGrid account, you can sign up here: https://signup.sendgrid.com/
+* AWS account, you can sign up here: https://portal.aws.amazon.com/billing/signup#/start 
 * For details on setting up the SendGrid Parse Webhook please see https://sendgrid.com/docs/for-developers/parsing-email/setting-up-the-inbound-parse-webhook/ 
 
 # Setting Up
