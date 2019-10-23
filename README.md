@@ -1,5 +1,5 @@
 # Email to Fax Sample APP
-Sample app provides details on how you can utilize the SendGrid Parse Webhook, to receive receive the contents of an email, store the attachment in an S3 bucket and send it as a fax using Twilio.
+Sample app provides details on how you can utilize the SendGrid Parse Webhook, to receive the content of an email, store the attachment in an S3 bucket and send it as a fax using Twilio.
 ## Requirements
 * A Twilio, account, you can sign up here: https://www.twilio.com/try-twilio 
 * A SendGrid account, you can sign up here: https://signup.sendgrid.com/
@@ -34,7 +34,8 @@ On Windows, the easiest way to set permanent environment variables (as of Window
 Clone this repository. Navigate to the folder with the source code on your machine in a terminal window.
 From there we recommend creating a virtualenv and activating it to avoid installing dependencies globaly on your computer.
 
-virtualenv -p python3 env source env/bin/activate
-Install dependencies:
-pip install -r requirements.txt
-Run the web app: python emailApp.py
+    virtualenv -p python3 env source env/bin/activate
+    Install dependencies:
+    pip install -r requirements.txt
+    Run the web app: 
+    python emailApp.py
