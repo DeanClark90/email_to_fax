@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 @app.route('/parse_email', methods=['POST'])
 def email():
-
 	#Retrieve email headers and extract fax number
 	email_headers = simplejson.loads(request.values.get('envelope'))
 	to_email = email_headers['to'][0].split('@')
