@@ -40,3 +40,6 @@ From there we recommend creating a virtualenv and activating it to avoid install
     pip install -r requirements.txt
     Run the web app: 
     python emailApp.py
+
+# Testing
+Once the application is up and running, and you have set up the inbound parse webhook you can test the application by sending an email to your name where the user portion of the email address is the fax phone number. For example +1XXXXXXXXXX@yourdomain.com
