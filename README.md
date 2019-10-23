@@ -34,7 +34,7 @@ On Windows, the easiest way to set permanent environment variables (as of Window
 Clone this repository. Navigate to the folder with the source code on your machine in a terminal window.
 From there we recommend creating a virtualenv and activating it to avoid installing dependencies globaly on your computer.
 
-virtualenv -p python3 env source env/bin/activate
+    virtualenv -p python3 env source env/bin/activate
 Install dependencies:
-pip install -r requirements.txt
-Run the web app: python emailApp.py
+    pip install -r requirements.txt
+    Run the web app: python emailApp.py
